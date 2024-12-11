@@ -1239,8 +1239,6 @@ li {
 
   .hero-descripiton {
     font-size: 22px;
-    /* text-align: start; */
-    /* width: 100%; */
   }
 
   .checkboxes-row {
@@ -1326,6 +1324,11 @@ li {
 
 @media (max-width: 460px) {
   .hero-header-text {
-    /* font-size: 24px; */
+    font-size: 24px;
+  }
+
+  .hero-descripiton {
+    font-size: 16px;
+    margin: 0 0 0 2px;
   }
 }
