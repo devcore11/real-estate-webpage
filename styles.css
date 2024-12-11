@@ -215,7 +215,7 @@ body {
 .sidebar a {
   display: block;
   padding: 10px 20px;
-  border-bottom: 1px solid var(--gray-200);
+  border-bottom: 1px solid var(--gray-100);
   text-decoration: none;
   font-size: 13px;
   color: var(--gray-300);
@@ -223,7 +223,7 @@ body {
 }
 
 .sidebar a:hover {
-  background-color: var(--gray-200);
+  background-color: var(--blue-200);
   color: var(--white);
 }
 
@@ -279,6 +279,8 @@ body {
   position: fixed;
   z-index: 70;
   top: 0;
+  right: 0;
+  left: 0;
   margin: auto;
   width: 100%;
   height: 80px;
@@ -966,7 +968,7 @@ li {
 
 .review-cards-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 20px;
   margin-top: 1rem;
 }
@@ -1280,6 +1282,14 @@ li {
     width: 100%;
   }
 
+  .explore-cards-container {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+
+  .property-sale-cards {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+
   .property-price {
     font-size: 22px;
   }
@@ -1290,7 +1300,7 @@ li {
   }
 
   .property-card-left {
-    /* width: 100%; */
+    width: 100%;
     height: 200px;
   }
 
