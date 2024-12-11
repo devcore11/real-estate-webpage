@@ -1,0 +1,1182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="sidebar-overlay-container">
+        <div class="container shadow-overlay"></div>
+        <aside id="sidebar" class="sidebar">
+            <button class="close-btn">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </aside>
+    </div>
+
+    <section class="hero-section">
+        <div class="navbar-container">
+            <nav class="container navbar">
+                <span class="logo-links-container">
+                    <span class="toggle-icon-container">
+                        <a href="#"><img class="logo" src="Assets/img/logo.png" alt=""></a>
+                    </span>
+
+                    <ul class="links-container">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Listings</a></li>
+                        <li><a href="#">Feature</a></li>
+                        <li><a href="#">Pages</a></li>
+                    </ul>
+                </span>
+
+                <div class="navbar-buttons-container">
+                    <a href="#" class="sign-in-link"> <i class="fa-solid fa-user-circle"></i>
+                        <p>SignUp or SignIn</p>
+                    </a>
+                    <button class="btn property-nav-btn"> <i class="fa-solid fa-arrow-right-to-bracket"></i>Post
+                        Property</button>
+                    <a href class="add-icon-link"><i class="fa-solid fa-circle-plus"></i></a>
+                    <button class="sidebar-toggle-btn">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                </div>
+
+
+            </nav>
+        </div>
+        <div class="hero-section-container">
+            <div class="hero-img-container">
+                <img class="hero-img" src="Assets/img/home-2.png" alt="">
+            </div>
+            <div class="hero-main-container">
+                <header>
+                    <p class="hero-descripiton">
+                        Amet consectetur adipisicing
+                    </p>
+                    <h1 class="hero-header-text">Find Your Perfect Place.</h1>
+                </header>
+                <form class="search-course-form">
+                    <div class="checkboxes-row">
+                        <div class="checkboxes-item">
+                            <label class="checkbox style-d">
+                                <input type="checkbox" id="forBuy" />
+                                <div class="checkbox-checkmark"></div>
+                                <p class="checkbox-body">For Buy</p>
+                            </label>
+                        </div>
+                        <div class="checkboxes-item">
+                            <label class="checkbox style-d">
+                                <input type="checkbox" id="forRent" checked="checked" />
+                                <div class="checkbox-checkmark"></div>
+                                <p class="checkbox-body">For Rent</p>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="icon-input-container">
+                        <i class="input-location-icon fa-solid fa-location-dot"></i>
+                        <input type="text" class="hero-search-input" placeholder="Search for a location">
+                    </div>
+                    <div class="input-btn-container">
+                        <button type="submit" class="hero-search-button">Search</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="container property-type-section">
+        <header class="header-center">
+            <h1 class="head-text">Choose Property Type</h1>
+            <p class="wrap-text-center">
+                At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
+                deleniti
+                atque corrupti quos dolores
+            </p>
+        </header>
+
+        <main class="property-cards-container">
+            <a href="#" id="property-card-link" class="card">
+                <i class="property-card-icon fa-solid fa-house-laptop"></i>
+                <h3 class="property-type">Commmercial</h3>
+                <p class="property-quantity">122 Properties</p>
+            </a>
+
+            <a href="#" id="property-card-link" class="card">
+                <i class="property-card-icon fa-solid fa-house-laptop"></i>
+                <h3 class="property-type">Apartment</h3>
+                <p class="property-quantity">52 Properties</p>
+            </a>
+
+            <a href="#" id="property-card-link" class="card">
+                <i class="property-card-icon fa-solid fa-house-laptop"></i>
+                <h3 class="property-type">Townhouse</h3>
+                <p class="property-quantity">123 Properties</p>
+            </a>
+
+            <a href="#" id="property-card-link" class="card">
+                <i class="property-card-icon fa-solid fa-house-laptop"></i>
+                <h3 class="property-type">Villa</h3>
+                <p class="property-quantity">12 Properties</p>
+            </a>
+
+            <a href="#" id="property-card-link" class="card">
+                <i class="property-card-icon fa-solid fa-house-laptop"></i>
+                <h3 class="property-type">Offices</h3>
+                <p class="property-quantity">42 Properties</p>
+            </a>
+
+            <a href="#" id="property-card-link" class="card">
+                <i class="property-card-icon fa-solid fa-house-laptop"></i>
+                <h3 class="property-type">Warehouses</h3>
+                <p class="property-quantity">32 Properties</p>
+            </a>
+
+            <a href="#" id="property-card-link" class="card">
+                <i class="property-card-icon fa-solid fa-house-laptop"></i>
+                <h3 class="property-type">Private House</h3>
+                <p class="property-quantity">122 Properties</p>
+            </a>
+
+            <a href="#" id="property-card-link" class="card">
+                <i class="property-card-icon fa-solid fa-house-laptop"></i>
+                <h3 class="property-type">Openhouse</h3>
+                <p class="property-quantity">12 Properties</p>
+            </a>
+
+            <a href="#" id="property-card-link" class="card">
+                <i class="property-card-icon fa-solid fa-house-laptop"></i>
+                <h3 class="property-type">Building</h3>
+                <p class="property-quantity">54 Properties</p>
+            </a>
+
+            <a href="#" id="property-card-link" class="card">
+                <i class="property-card-icon fa-solid fa-house-laptop"></i>
+                <h3 class="property-type">Shops</h3>
+                <p class="property-quantity">44 Properties</p>
+            </a>
+
+            <a href="#" id="property-card-link" class="card">
+                <i class="property-card-icon fa-solid fa-house-laptop"></i>
+                <h3 class="property-type">Studio</h3>
+                <p class="property-quantity">42 Properties</p>
+            </a>
+
+            <a href="#" id="property-card-link" class="card">
+                <i class="property-card-icon fa-solid fa-house-laptop"></i>
+                <h3 class="property-type">Condos</h3>
+                <p class="property-quantity">122 Properties</p>
+            </a>
+        </main>
+    </section>
+
+    <section class="container explore-places-section">
+        <header class="header-center">
+            <h1 class="head-text">Explore Good places</h1>
+            <p class="wrap-text-center">
+                At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
+                deleniti
+                atque corrupti quos dolores
+            </p>
+        </header>
+
+        <main class="explore-cards-container">
+            <div class="card">
+                <div class="explore-card-top">
+                    <img src="Assets/img/p-1.jpg" alt="">
+                </div>
+                <div class="explore-card-bottom">
+                    <div class="property-name-description">
+                        <span class="property-describer-container">
+                            <p class="green-btn describer">For Rent</p>
+                            <p class="blue-btn describer">Apartment</p>
+                        </span>
+                        <h3 class="propery-card-headtext">The Green Canton Chrysler</h3>
+                        <span class="property-location-container">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p class="property-location-text">210 Zirak Road, Canada</p>
+                        </span>
+                    </div>
+
+                    <div class="property-main-details">
+                        <span class="property-detail">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p>3BHK</p>
+                        </span>
+
+                        <span class="property-detail">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p>3 Beds</p>
+                        </span>
+
+                        <span class="property-detail">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p>1800 SQFT</p>
+                        </span>
+                    </div>
+
+                    <footer class="explore-card-footer">
+                        <h1 class="property-price">$80,000</h1>
+                        <a href=""><i class="fa-solid fa-paper-plane"></i></a>
+                    </footer>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="explore-card-top">
+                    <img src="Assets/img/p-2.jpg" alt="">
+                </div>
+                <div class="explore-card-bottom">
+                    <div class="property-name-description">
+                        <span class="property-describer-container">
+                            <p class="green-btn describer">For Rent</p>
+                            <p class="blue-btn describer">Apartment</p>
+                        </span>
+                        <h3 class="propery-card-headtext">The Green Canton Chrysler</h3>
+                        <span class="property-location-container">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p class="property-location-text">210 Zirak Road, Canada</p>
+                        </span>
+                    </div>
+
+                    <div class="property-main-details">
+                        <span class="property-detail">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p>3BHK</p>
+                        </span>
+
+                        <span class="property-detail">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p>3 Beds</p>
+                        </span>
+
+                        <span class="property-detail">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p>1800 SQFT</p>
+                        </span>
+                    </div>
+
+                    <footer class="explore-card-footer">
+                        <h1 class="property-price">$80,000</h1>
+                        <a href=""><i class="fa-solid fa-paper-plane"></i></a>
+                    </footer>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="explore-card-top">
+                    <img src="Assets/img/p-11.jpg" alt="">
+                </div>
+                <div class="explore-card-bottom">
+                    <div class="property-name-description">
+                        <span class="property-describer-container">
+                            <p class="green-btn describer">For Rent</p>
+                            <p class="blue-btn describer">Apartment</p>
+                        </span>
+                        <h3 class="propery-card-headtext">The Green Canton Chrysler</h3>
+                        <span class="property-location-container">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p class="property-location-text">210 Zirak Road, Canada</p>
+                        </span>
+                    </div>
+
+                    <div class="property-main-details">
+                        <span class="property-detail">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p>3BHK</p>
+                        </span>
+
+                        <span class="property-detail">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p>3 Beds</p>
+                        </span>
+
+                        <span class="property-detail">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p>1800 SQFT</p>
+                        </span>
+                    </div>
+
+                    <footer class="explore-card-footer">
+                        <h1 class="property-price">$80,000</h1>
+                        <a href=""><i class="fa-solid fa-paper-plane"></i></a>
+                    </footer>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="explore-card-top">
+                    <img src="Assets/img/p-4.jpg" alt="">
+                </div>
+                <div class="explore-card-bottom">
+                    <div class="property-name-description">
+                        <span class="property-describer-container">
+                            <p class="green-btn describer">For Rent</p>
+                            <p class="blue-btn describer">Apartment</p>
+                        </span>
+                        <h3 class="propery-card-headtext">The Green Canton Chrysler</h3>
+                        <span class="property-location-container">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p class="property-location-text">210 Zirak Road, Canada</p>
+                        </span>
+                    </div>
+
+                    <div class="property-main-details">
+                        <span class="property-detail">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p>3BHK</p>
+                        </span>
+
+                        <span class="property-detail">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p>3 Beds</p>
+                        </span>
+
+                        <span class="property-detail">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p>1800 SQFT</p>
+                        </span>
+                    </div>
+
+                    <footer class="explore-card-footer">
+                        <h1 class="property-price">$80,000</h1>
+                        <a href=""><i class="fa-solid fa-paper-plane"></i></a>
+                    </footer>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="explore-card-top">
+                    <img src="Assets/img/p-3.jpg" alt="">
+                </div>
+                <div class="explore-card-bottom">
+                    <div class="property-name-description">
+                        <span class="property-describer-container">
+                            <p class="green-btn describer">For Rent</p>
+                            <p class="blue-btn describer">Apartment</p>
+                        </span>
+                        <h3 class="propery-card-headtext">The Green Canton Chrysler</h3>
+                        <span class="property-location-container">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p class="property-location-text">210 Zirak Road, Canada</p>
+                        </span>
+                    </div>
+
+                    <div class="property-main-details">
+                        <span class="property-detail">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p>3BHK</p>
+                        </span>
+
+                        <span class="property-detail">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p>3 Beds</p>
+                        </span>
+
+                        <span class="property-detail">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p>1800 SQFT</p>
+                        </span>
+                    </div>
+
+                    <footer class="explore-card-footer">
+                        <h1 class="property-price">$80,000</h1>
+                        <a href=""><i class="fa-solid fa-paper-plane"></i></a>
+                    </footer>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="explore-card-top">
+                    <img src="Assets/img/p-4.jpg" alt="">
+                </div>
+                <div class="explore-card-bottom">
+                    <div class="property-name-description">
+                        <span class="property-describer-container">
+                            <p class="green-btn describer">For Rent</p>
+                            <p class="blue-btn describer">Apartment</p>
+                        </span>
+                        <h3 class="propery-card-headtext">The Green Canton Chrysler</h3>
+                        <span class="property-location-container">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p class="property-location-text">210 Zirak Road, Canada</p>
+                        </span>
+                    </div>
+
+                    <div class="property-main-details">
+                        <span class="property-detail">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p>3BHK</p>
+                        </span>
+
+                        <span class="property-detail">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p>3 Beds</p>
+                        </span>
+
+                        <span class="property-detail">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p>1800 SQFT</p>
+                        </span>
+                    </div>
+
+                    <footer class="explore-card-footer">
+                        <h1 class="property-price">$80,000</h1>
+                        <a href=""><i class="fa-solid fa-paper-plane"></i></a>
+                    </footer>
+                </div>
+            </div>
+        </main>
+        <span class="bottom-btn-container">
+            <button class="big-btn btn">Browse More Properties</button>
+        </span>
+    </section>
+
+    <section class="explore-agents-section">
+        <div class="container agents-cards-main">
+            <header class="header-center">
+                <h1 class="head-text">Explore Featured Agents</h1>
+                <p class="wrap-text-center">
+                    At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
+                    deleniti
+                    atque corrupti quos dolores
+                </p>
+            </header>
+
+            <main class="agents-cards-container">
+                <div id="agent-id" class="card">
+                    <span class="agents-card-header">
+                        <div class="agents-img-container">
+                            <img src="Assets/img/user-1.jpg" alt="">
+                        </div>
+                        <div class="agent-name-container">
+                            <h3 class="agent-name">James N. Green</h3>
+                            <p class="agent-properties">44 Properties</p>
+                        </div>
+                    </span>
+
+                    <span class="agents-card-footer">
+                        <div>
+                            <p class="agent-contact">Call: <span class="agent-number">+123 456 7859</span></p>
+                            <div class="agent-star-reviews">
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                                <p class="agent-number-of-reviews">(22 Reviews)</p>
+                            </div>
+                        </div>
+
+                        <button class="agent-message-btn btn"><i class="fa-solid fa-envelope-circle-check"></i></button>
+                    </span>
+                </div>
+
+                <div id="agent-id" class="card">
+                    <span class="agents-card-header">
+                        <div class="agents-img-container">
+                            <img src="Assets/img/user-2.jpg" alt="">
+                        </div>
+                        <div class="agent-name-container">
+                            <h3 class="agent-name">Sarah J. Jones</h3>
+                            <p class="agent-properties">44 Properties</p>
+                        </div>
+                    </span>
+
+                    <span class="agents-card-footer">
+                        <div>
+                            <p class="agent-contact">Call: <span class="agent-number">+123 456 7859</span></p>
+                            <div class="agent-star-reviews">
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                                <p class="agent-number-of-reviews">(772 Reviews)</p>
+                            </div>
+                        </div>
+
+                        <button class="agent-message-btn btn"><i class="fa-solid fa-envelope-circle-check"></i></button>
+                    </span>
+                </div>
+
+                <div id="agent-id" class="card">
+                    <span class="agents-card-header">
+                        <div class="agents-img-container">
+                            <img src="Assets/img/user-3.jpg" alt="">
+                        </div>
+                        <div class="agent-name-container">
+                            <h3 class="agent-name">Erick N. Powell</h3>
+                            <p class="agent-properties">86 Properties</p>
+                        </div>
+                    </span>
+
+                    <span class="agents-card-footer">
+                        <div>
+                            <p class="agent-contact">Call: <span class="agent-number">+123 456 7859</span></p>
+                            <div class="agent-star-reviews">
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                                <p class="agent-number-of-reviews">(42 Reviews)</p>
+                            </div>
+                        </div>
+
+                        <button class="agent-message-btn btn"><i class="fa-solid fa-envelope-circle-check"></i></button>
+                    </span>
+                </div>
+
+                <div id="agent-id" class="card">
+                    <span class="agents-card-header">
+                        <div class="agents-img-container">
+                            <img src="Assets/img/user-4.jpg" alt="">
+                        </div>
+                        <div class="agent-name-container">
+                            <h3 class="agent-name">Emma D. Hardy</h3>
+                            <p class="agent-properties">67 Properties</p>
+                        </div>
+                    </span>
+
+                    <span class="agents-card-footer">
+                        <div>
+                            <p class="agent-contact">Call: <span class="agent-number">+123 456 7859</span></p>
+                            <div class="agent-star-reviews">
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                                <p class="agent-number-of-reviews">(452 Reviews)</p>
+                            </div>
+                        </div>
+
+                        <button class="agent-message-btn btn"><i class="fa-solid fa-envelope-circle-check"></i></button>
+                    </span>
+                </div>
+
+                <div id="agent-id" class="card">
+                    <span class="agents-card-header">
+                        <div class="agents-img-container">
+                            <img src="Assets/img/user-5.jpg" alt="">
+                        </div>
+                        <div class="agent-name-container">
+                            <h3 class="agent-name">Bryan D. Woods</h3>
+                            <p class="agent-properties">17 Properties</p>
+                        </div>
+                    </span>
+
+                    <span class="agents-card-footer">
+                        <div>
+                            <p class="agent-contact">Call: <span class="agent-number">+123 456 7859</span></p>
+                            <div class="agent-star-reviews">
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                                <p class="agent-number-of-reviews">(92 Reviews)</p>
+                            </div>
+                        </div>
+
+                        <button class="agent-message-btn btn"><i class="fa-solid fa-envelope-circle-check"></i></button>
+                    </span>
+                </div>
+
+                <div id="agent-id" class="card">
+                    <span class="agents-card-header">
+                        <div class="agents-img-container">
+                            <img src="Assets/img/user-6.jpg" alt="">
+                        </div>
+                        <div class="agent-name-container">
+                            <h3 class="agent-name">Stacy B. Godbrand</h3>
+                            <p class="agent-properties">817 Properties</p>
+                        </div>
+                    </span>
+
+                    <span class="agents-card-footer">
+                        <div>
+                            <p class="agent-contact">Call: <span class="agent-number">+123 456 7859</span></p>
+                            <div class="agent-star-reviews">
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                                <p class="agent-number-of-reviews">(582 Reviews)</p>
+                            </div>
+                        </div>
+
+                        <button class="agent-message-btn btn"><i class="fa-solid fa-envelope-circle-check"></i></button>
+                    </span>
+                </div>
+
+                <div id="agent-id" class="card">
+                    <span class="agents-card-header">
+                        <div class="agents-img-container">
+                            <img src="Assets/img/user-7.jpg" alt="">
+                        </div>
+                        <div class="agent-name-container">
+                            <h3 class="agent-name">Harry E. Riley</h3>
+                            <p class="agent-properties">7 Properties</p>
+                        </div>
+                    </span>
+
+                    <span class="agents-card-footer">
+                        <div>
+                            <p class="agent-contact">Call: <span class="agent-number">+123 456 7859</span></p>
+                            <div class="agent-star-reviews">
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                                <p class="agent-number-of-reviews">(72 Reviews)</p>
+                            </div>
+                        </div>
+
+                        <button class="agent-message-btn btn"><i class="fa-solid fa-envelope-circle-check"></i></button>
+                    </span>
+                </div>
+
+                <div id="agent-id" class="card">
+                    <span class="agents-card-header">
+                        <div class="agents-img-container">
+                            <img src="Assets/img/user-8.jpg" alt="">
+                        </div>
+                        <div class="agent-name-container">
+                            <h3 class="agent-name">Dereck J. Watson</h3>
+                            <p class="agent-properties">17 Properties</p>
+                        </div>
+                    </span>
+
+                    <span class="agents-card-footer">
+                        <div>
+                            <p class="agent-contact">Call: <span class="agent-number">+123 456 7859</span></p>
+                            <div class="agent-star-reviews">
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                                <p class="agent-number-of-reviews">(62 Reviews)</p>
+                            </div>
+                        </div>
+
+                        <button class="agent-message-btn btn"><i class="fa-solid fa-envelope-circle-check"></i></button>
+                    </span>
+                </div>
+            </main>
+            <span class="bottom-btn-container">
+                <button class="big-btn btn">Browse More Agents</button>
+            </span>
+        </div>
+    </section>
+
+    <section class="container property-sale-section">
+        <header class="header-center">
+            <h1 class="head-text">Featured Property For Sale</h1>
+            <p class="wrap-text-center">
+                At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
+                deleniti
+                atque corrupti quos dolores
+            </p>
+        </header>
+
+        <main class="property-sale-cards">
+            <div id="property-cardID" class="card">
+                <span class="property-card-left">
+                    <img src="Assets/img/p-2.jpg" alt="">
+                </span>
+                <span class="property-card-right">
+
+                    <div class="property-details-top">
+                        <div class="">
+                            <p class="describer red-btn">For Sale</p>
+                            <h4 class="property-sale-name">Adobe Property Advisors</h4>
+                            <div class="property-star-reviews">
+                                <span class="">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                                <p class="property-number-of-reviews">(52 Reviews)</p>
+                            </div>
+                        </div>
+                        <h2 class="property-sale-price">$120M</h2>
+                    </div>
+
+                    <div class="property-features">
+                        <span>
+                            <p class="property-feature-icon">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </p>
+                            <p>3BHK</p>
+                        </span>
+
+                        <span>
+                            <p class="property-feature-icon">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </p>
+                            <p>3 Beds</p>
+                        </span>
+
+                        <span>
+                            <p class="property-feature-icon">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </p>
+                            <p>1800 SQFT</p>
+                        </span>
+                    </div>
+
+                    <footer class="property-right-footer">
+                        <p class="property-location-text"><i class="fa-solid fa-location-pin"></i> Quice Market, Canada
+                        </p>
+                        <button class="view-property-btn">View</button>
+                    </footer>
+                </span>
+            </div>
+
+            <div id="property-cardID" class="card">
+                <span class="property-card-left">
+                    <img src="Assets/img/p-1.jpg" alt="">
+                </span>
+                <span class="property-card-right">
+
+                    <div class="property-details-top">
+                        <div class="">
+                            <p class="describer red-btn">For Sale</p>
+                            <h4 class="property-sale-name">Adobe Property Advisors</h4>
+                            <div class="property-star-reviews">
+                                <span class="">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                                <p class="property-number-of-reviews">(52 Reviews)</p>
+                            </div>
+                        </div>
+                        <h2 class="property-sale-price">$120M</h2>
+                    </div>
+
+                    <div class="property-features">
+                        <span>
+                            <p class="property-feature-icon">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </p>
+                            <p>3BHK</p>
+                        </span>
+
+                        <span>
+                            <p class="property-feature-icon">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </p>
+                            <p>3 Beds</p>
+                        </span>
+
+                        <span>
+                            <p class="property-feature-icon">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </p>
+                            <p>1800 SQFT</p>
+                        </span>
+                    </div>
+
+                    <footer class="property-right-footer">
+                        <p class="property-location-text"><i class="fa-solid fa-location-pin"></i> Quice Market, Canada
+                        </p>
+                        <button class="view-property-btn">View</button>
+                    </footer>
+                </span>
+            </div>
+
+            <div id="property-cardID" class="card">
+                <span class="property-card-left">
+                    <img src="Assets/img/p-7.jpg" alt="">
+                </span>
+                <span class="property-card-right">
+
+                    <div class="property-details-top">
+                        <div class="">
+                            <p class="describer red-btn">For Sale</p>
+                            <h4 class="property-sale-name">Adobe Property Advisors</h4>
+                            <div class="property-star-reviews">
+                                <span class="">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                                <p class="property-number-of-reviews">(52 Reviews)</p>
+                            </div>
+                        </div>
+                        <h2 class="property-sale-price">$120M</h2>
+                    </div>
+
+                    <div class="property-features">
+                        <span>
+                            <p class="property-feature-icon">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </p>
+                            <p>3BHK</p>
+                        </span>
+
+                        <span>
+                            <p class="property-feature-icon">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </p>
+                            <p>3 Beds</p>
+                        </span>
+
+                        <span>
+                            <p class="property-feature-icon">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </p>
+                            <p>1800 SQFT</p>
+                        </span>
+                    </div>
+
+                    <footer class="property-right-footer">
+                        <p class="property-location-text"><i class="fa-solid fa-location-pin"></i> Quice Market, Canada
+                        </p>
+                        <button class="view-property-btn">View</button>
+                    </footer>
+                </span>
+            </div>
+
+            <div id="property-cardID" class="card">
+                <span class="property-card-left">
+                    <img src="Assets/img/p-9.jpg" alt="">
+                </span>
+                <span class="property-card-right">
+
+                    <div class="property-details-top">
+                        <div class="">
+                            <p class="describer red-btn">For Sale</p>
+                            <h4 class="property-sale-name">Adobe Property Advisors</h4>
+                            <div class="property-star-reviews">
+                                <span class="">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                                <p class="property-number-of-reviews">(52 Reviews)</p>
+                            </div>
+                        </div>
+                        <h2 class="property-sale-price">$120M</h2>
+                    </div>
+
+                    <div class="property-features">
+                        <span>
+                            <p class="property-feature-icon">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </p>
+                            <p>3BHK</p>
+                        </span>
+
+                        <span>
+                            <p class="property-feature-icon">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </p>
+                            <p>3 Beds</p>
+                        </span>
+
+                        <span>
+                            <p class="property-feature-icon">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </p>
+                            <p>1800 SQFT</p>
+                        </span>
+                    </div>
+
+                    <footer class="property-right-footer">
+                        <p class="property-location-text"><i class="fa-solid fa-location-pin"></i> Quice Market, Canada
+                        </p>
+                        <button class="view-property-btn">View</button>
+                    </footer>
+                </span>
+            </div>
+        </main>
+
+        <span class="bottom-btn-container">
+            <button class="big-btn btn">Browse More Properties</button>
+        </span>
+    </section>
+
+    <section class="customer-reviews">
+        <div class="container">
+            <header class="header-center">
+                <h1 class="head-text">Good Reviews by Customers</h1>
+                <p class="wrap-text-center">
+                    At vero eos et accusamus et
+                    iusto odio dignissimos ducimus
+                    qui blanditiis praesentium voluptatumdeleniti
+                    atque corrupti quos dolores
+                </p>
+            </header>
+
+            <main class="review-cards-container">
+                <div id="review-card-id" class="card">
+                    <span class="review-card-top">
+                        <img src="Assets/img/user-6.jpg" alt="">
+                        <p class="wrap-text-center">At vero eos et accusamus et
+                            iusto odio dignissimos ducimus
+                            qui blanditiis praesentium voluptatumdeleniti
+                            atque corrupti quos dolores
+                        </p>
+                    </span>
+                    <footer class="review-card-footer">
+                        <h3 class="reviewer-name">Sarah Doe</h3>
+                        <p class="reviewer-job">CEO Of Amazon</p>
+                    </footer>
+                </div>
+
+                <div id="review-card-id" class="card">
+                    <span class="review-card-top">
+                        <img src="Assets/img/user-4.jpg" alt="">
+                        <p class="wrap-text-center">At vero eos et accusamus et
+                            iusto odio dignissimos ducimus
+                            qui blanditiis praesentium voluptatumdeleniti
+                            atque corrupti quos dolores
+                        </p>
+                    </span>
+                    <footer class="review-card-footer">
+                        <h3 class="reviewer-name">Chloe Bryan</h3>
+                        <p class="reviewer-job">CEO Of Apple</p>
+                    </footer>
+                </div>
+
+                <div id="review-card-id" class="card">
+                    <span class="review-card-top">
+                        <img src="Assets/img/user-7.jpg" alt="">
+                        <p class="wrap-text-center">At vero eos et accusamus et
+                            iusto odio dignissimos ducimus
+                            qui blanditiis praesentium voluptatumdeleniti
+                            atque corrupti quos dolores
+                        </p>
+                    </span>
+                    <footer class="review-card-footer">
+                        <h3 class="reviewer-name">Corey Steven</h3>
+                        <p class="reviewer-job">Founder Of Paystack</p>
+                    </footer>
+                </div>
+            </main>
+        </div>
+    </section>
+
+    <section class="container explore-bestplaces-section">
+        <header class="header-center">
+            <h1 class="head-text">Explore Properties in Best Places</h1>
+            <p class="wrap-text-center">
+                At vero eos et accusamus et
+                iusto odio dignissimos ducimus
+                qui blanditiis praesentium voluptatum deleniti
+                atque corrupti quos dolores
+            </p>
+        </header>
+        <main class="bestplaces-cards-container">
+            <a class="bestplace-link" href="#">
+                <div class="card">
+                    <img class="place-img" src="Assets/img/ct-5.png" alt="">
+                    <span class="bestplace-right-side">
+                        <h2 class="bestplace-location">New York</h2>
+                        <p class="bestplace-quantity">3 Properties</p>
+                    </span>
+                </div>
+            </a>
+
+            <a class="bestplace-link" href="#">
+                <div class="card">
+                    <img class="place-img" src="Assets/img/ct-6.png" alt="">
+                    <span>
+                        <h2 class="bestplace-location">Texas</h2>
+                        <p class="bestplace-quantity">43 Properties</p>
+                    </span>
+                </div>
+            </a>
+
+            <a class="bestplace-link" href="#">
+                <div class="card">
+                    <img class="place-img" src="Assets/img/ct-1.png" alt="">
+                    <span>
+                        <h2 class="bestplace-location">Colorada</h2>
+                        <p class="bestplace-quantity">14 Properties</p>
+                    </span>
+                </div>
+            </a>
+
+            <a class="bestplace-link" href="#">
+                <div class="card">
+                    <img class="place-img" src="Assets/img/ct-9.png" alt="">
+                    <span>
+                        <h2 class="bestplace-location">Jacksonville</h2>
+                        <p class="bestplace-quantity">49 Properties</p>
+                    </span>
+                </div>
+            </a>
+
+            <a class="bestplace-link" href="#">
+                <div class="card">
+                    <img class="place-img" src="Assets/img/ct-8.png" alt="">
+                    <span>
+                        <h2 class="bestplace-location">Denver</h2>
+                        <p class="bestplace-quantity">13 Properties</p>
+                    </span>
+                </div>
+            </a>
+
+            <a class="bestplace-link" href="#">
+                <div class="card">
+                    <img class="place-img" src="Assets/img/ct-2.png" alt="">
+                    <span>
+                        <h2 class="bestplace-location">California</h2>
+                        <p class="bestplace-quantity">143 Properties</p>
+                    </span>
+                </div>
+            </a>
+
+            <a class="bestplace-link" href="#">
+                <div class="card">
+                    <img class="place-img" src="Assets/img/ct-6.png" alt="">
+                    <span>
+                        <h2 class="bestplace-location">Houston</h2>
+                        <p class="bestplace-quantity">343 Properties</p>
+                    </span>
+                </div>
+            </a>
+
+            <a class="bestplace-link" href="#">
+                <div class="card">
+                    <img class="place-img" src="Assets/img/ct-3.png" alt="">
+                    <span>
+                        <h2 class="bestplace-location">Los Angeles</h2>
+                        <p class="bestplace-quantity">143 Properties</p>
+                    </span>
+                </div>
+            </a>
+
+            <a class="bestplace-link" href="#">
+                <div class="card">
+                    <img class="place-img" src="Assets/img/ct-6.png" alt="">
+                    <span>
+                        <h2 class="bestplace-location">Philadelphia</h2>
+                        <p class="bestplace-quantity">23 Properties</p>
+                    </span>
+                </div>
+            </a>
+
+            <a class="bestplace-link" href="#">
+                <div class="card">
+                    <img class="place-img" src="Assets/img/ct-1.png" alt="">
+                    <span>
+                        <h2 class="bestplace-location">San Diego</h2>
+                        <p class="bestplace-quantity">33 Properties</p>
+                    </span>
+                </div>
+            </a>
+
+            <a class="bestplace-link" href="#">
+                <div class="card">
+                    <img class="place-img" src="Assets/img/ct-4.png" alt="">
+                    <span>
+                        <h2 class="bestplace-location">Phoenix</h2>
+                        <p class="bestplace-quantity">23 Properties</p>
+                    </span>
+                </div>
+            </a>
+
+            <a class="bestplace-link" href="#">
+                <div class="card">
+                    <img class="place-img" src="Assets/img/ct-9.png" alt="">
+                    <span>
+                        <h2 class="bestplace-location">Oklahoma City</h2>
+                        <p class="bestplace-quantity">53 Properties</p>
+                    </span>
+                </div>
+            </a>
+
+            <a class="bestplace-link" href="#">
+                <div class="card">
+                    <img class="place-img" src="Assets/img/ct-8.png" alt="">
+                    <span>
+                        <h2 class="bestplace-location">Seattle</h2>
+                        <p class="bestplace-quantity">73 Properties</p>
+                    </span>
+                </div>
+            </a>
+        </main>
+    </section>
+
+    <section class="download-app-section">
+        <div class="container download-app-container">
+            <div class="download-section-left">
+                <header>
+                    <p class="describer download-describer">Download apps</p>
+                    <h1 class="download-app-headtext">Download App Free App For Android and iPhone</h1>
+                    <p class="wrap-text-start">Sed ut perspiciatis unde omnis iste natus error
+                        sit voluptatem accusantium doloremque laudantium, totam
+                        rem aperiam, eaque ipsa quae ab illo inventore
+                        veritatis et quasi architecto accusantium.
+                    </p>
+                </header>
+
+                <span class="download-link-container">
+                    <a href="" class="app-img-container">
+                        <img src="Assets/img/google-play.jpg" alt="">
+                    </a>
+
+                    <a href="" class="app-img-container">
+                        <img src="Assets/img/app-store2.png" alt="">
+                    </a>
+                </span>
+            </div>
+
+            <div class="download-section-right">
+                <img src="Assets/img/app.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <div class="copyright">
+        <p>&copy; 2024 resido. All Rights Reserved.</p>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
