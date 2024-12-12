@@ -296,7 +296,7 @@ body {
   height: 100%;
 }
 
-.logo-text{
+.logo-text {
   font-size: 28px;
   font-weight: bold;
   text-decoration: none;
@@ -1179,12 +1179,6 @@ li {
   .container {
     padding: 32px 70px;
   }
-
-  .logo {
-    height: 26px;
-    width: 110px;
-  }
-
   .property-nav-btn {
     display: none;
   }
@@ -1320,6 +1314,10 @@ li {
   .download-app-headtext {
     font-size: 25px;
     line-height: 35px;
+  }
+
+  .logo-text {
+    font-size: 25px;
   }
 }
 
