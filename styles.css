@@ -296,10 +296,11 @@ body {
   height: 100%;
 }
 
-.logo {
-  object-fit: cover;
-  height: 36px;
-  width: 150px;
+.logo-text{
+  font-size: 28px;
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--blue-400);
 }
 
 .links-container {
